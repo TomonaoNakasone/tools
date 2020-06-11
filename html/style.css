@@ -1,0 +1,65 @@
+/* テキストエリア */
+.msr_textarea_04 {
+	padding-bottom: 10px;
+	width: 460px;
+}
+.msr_textarea_04 label {
+	display: block;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+.msr_textarea_04 textarea {
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #000000;
+	font-size: 13px;
+	padding: 10px;
+	height: 210px;
+	width: 460px;
+}
+
+/* 送信ボタン */
+.msr_sendbtn_04 {
+	margin:0 0 10px;
+	position: relative;
+	height: 50px;
+	width: 150px;
+}
+.msr_sendbtn_04 input[type=button] {
+	background: #000000;
+	background-position: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	height: 50px;
+	width: 150px;
+}
+.msr_sendbtn_04:before {
+	border: 6px solid transparent;
+	border-left: 6px solid #FFFFFF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	content: "";
+	display: inline-block;
+	height: 12px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	vertical-align: middle;
+	width: 6px;
+	z-index: 10;
+}
+	.msr_sendbtn_04 input[type=button]:hover {
+	opacity: 0.6;
+}
